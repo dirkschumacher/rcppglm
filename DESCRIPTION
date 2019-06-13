@@ -1,0 +1,18 @@
+Package: RcppGLM
+Title: GLM in C++
+Version: 0.0.0.9000
+Authors@R: person("Dirk", "Schumacher", email = "first.last@example.com", role = c("aut", "cre"))
+Description: Fit GLM in c++.
+Depends: R (>= 3.5.3)
+License: LGPL (>= 2.1)
+Encoding: UTF-8
+LazyData: true
+LinkingTo: 
+    Rcpp, RcppArmadillo
+Imports: 
+    Rcpp, RcppArmadillo
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat (>= 2.1.0),
+    stats
